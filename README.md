@@ -21,6 +21,7 @@ Whenever an Ender Dragon is respawned, it will gain a random Type, which changes
 - Slower flying speed
 - Periodically teleports around the arena
 - Perches more often
+- Breath Clouds give Poison + Slowness
 - Breath Clouds don't dissipate until the fight ends
 
 **Sculk Dragon**
@@ -28,7 +29,7 @@ Whenever an Ender Dragon is respawned, it will gain a random Type, which changes
 - Periodically attacks a player with a Sonic Boom attack
 
 **Dragon Tyrant**
-- Breath Clouds give Wither + Slowness
+- Breath Clouds give Wither + Weakness
 - Periodically summons Wither Skeleton Servants
 
 **Blazing Dragon**
