@@ -16,6 +16,7 @@ Whenever an Ender Dragon is respawned, it will gain a random Type, which changes
 **Zombified Dragon**
 - Breath Clouds spread more and give Hunger + Nausea
 - Periodically summons Zombie Servants
+- Converts the ground to Mud as it flies
 
 **Warped Dragon**
 - Slower flying speed
@@ -27,10 +28,18 @@ Whenever an Ender Dragon is respawned, it will gain a random Type, which changes
 **Sculk Dragon**
 - Breath Clouds give Darkness + Instant Damage
 - Periodically attacks a player with a Sonic Boom attack
+- Converts the ground to various Sculk blocks as it flies
 
 **Dragon Tyrant**
 - Breath Clouds give Wither + Weakness
 - Periodically summons Wither Skeleton Servants
+- Converts the ground to Soul Sand and Soul Fires as it flies
+
+**Skeletal Dragon**
+- Perches very often
+- Periodically summons Skeleton Servants, but at the cost of its health
+- Is Invulnerable while Skeleton Servants are alive
+- Slowly regenerates health even if there are no more End Crystals
 
 **Blazing Dragon**
 - Sets fires all along the ground beneath it
