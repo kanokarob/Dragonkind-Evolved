@@ -1,9 +1,9 @@
 ![DRAGONKIND REBORN Logo](https://cdn.modrinth.com/data/yo1bGdBx/images/d7e949cb1f9d6667bd471ddd8e6f8916856a81ae.png)
 
 # End Battle Reborn
-Dragonkind Evolved is a data pack which builds upon the vanilla Ender Dragon fight. Rather than recreate the battle from scratch, it adds additional features and mechanics to increase difficulty and complexity while holding true to the general gameplay loop introduced by Vanilla.
+Dragonkind Evolved builds upon the vanilla Ender Dragon fight. Rather than recreate the battle from scratch, it adds additional features and mechanics to increase difficulty and complexity while holding true to the general gameplay loop introduced by Vanilla.
 
-Additionally, this data pack incentivizes and rewards respawning the Ender Dragon. While the initial Ender Dragon fight does include changes, each successive battle will feature new Dragon types and End Crystal mechanics, both of which will continue to scale in difficulty as you slay more and more Ender Dragons.
+Additionally, it incentivizes and rewards respawning the Ender Dragon. While the initial Ender Dragon fight does include changes, each successive battle will feature new Dragon types and End Crystal mechanics, both of which will continue to scale in difficulty as you slay more and more Ender Dragons.
 
 ## Ender Dragons
 All Ender Dragons have more health than normal, and will have even more health depending on how many times it has been respawned. This corresponds to its difficulty level (Fledgeling, Powerful, Cruel, Immortal).
@@ -13,7 +13,7 @@ Whenever an Ender Dragon is respawned, it will gain a random Type, which changes
 <details>
   <summary>Shared Behavior</summary>
  
-When there are no more End Crystals left, all Dragon Types will begin to utilize the following abilities in addition to their type-specific powers.
+The Vanilla Ender Dragon has the following abilities at all times. When there are no more End Crystals left, all Dragon Types will begin to utilize these abilities in addition to their type-specific powers.
 
 - **Summon End Rod Spikes.** These work similarly to Evoker Fangs, and are summoned when the Dragon is perching or preparing to perch, or as a last resort.
 - **Ground all players.** This gives all players Levitation 128 for 20 seconds, effectively forcing them to (safely) land if flying with Elytra, and preventing them from taking off right away. If there aren't any flying players, it will try something else instead.
@@ -68,7 +68,7 @@ When there are no more End Crystals left, all Dragon Types will begin to utilize
 **Dragon Wight**
 - Silent, plays different ambient sound effects
 - Much faster flying speed
-- Shootes fireballs and charges at players more frequently
+- Shoots fireballs and charges at players more frequently
 - Never perches
   
 </details>
@@ -111,16 +111,45 @@ So why would you want to fight such increasingly difficult Ender Dragons? Defeat
 <details>
   <summary>Custom Items</summary>
   
-- Dragonslayer Sword
-- Dragon-Sinew Crossbow
-- Dragontooth Pickaxe
-- Dragonhide Armor (4 separate pieces)
-- Dragonskull Shield
-- Dragonscale Wings
-- Draconic Scepter
+**Dragonslayer Sword**
+- Deals 15 damage
+- When it hits a mob, has a wider and stronger form of Sweeping Edge
+- More effective against Dragons
+
+**Dragon-Sinew Crossbow**
+- Arrows deal 15 damage
+- Arrows hit End Crystals and Ender Dragons from a greater distance (8 blocks)
+- More effective against Dragons
+- Can't pierce Forcefield End Crystals
+
+**Dragontooth Pickaxe**
+- More effective when mining Obsidian
+- When a block is mined, the next 3 blocks in a row also get mined. This uses durability.
+- Respects Unbreaking, if applied
+
+**Dragonhide Armor (4 separate pieces)**
+- Each piece gives more Armor value than Netherite. A full set provides 25 total Armor.
+- Each piece gives extra Hearts. A full set provides 10 total hearts.
+- While wearing a full set, deals a more powerful Thorns-like effect to Dragons only
+
+**Dragonskull Shield**
+- While blocking, causes Dragon breath clouds to instantly dissipate
+- When this blocks a mob attack, knocks the mob back and deals them damage
+- The above damage is more effective against Dragons
+
+**Dragonscale Wings**
+- Provides some Armor
+- Gives 3 extra Hearts
+- While flying, looking upwards gives a strong levitation effect
+
+**Draconic Scepter**
+- Right-click to launch a laser where you are looking, reaching up to 48 blocks away. It damages mobs near where it hits.
+- The laser can pierce Forcefield End Crystals, and has a wider range to damage End Crystals and Dragons
+- Right-click while Sneaking to charge up an area-of-effect spell around you, damaging nearby mobs when it finishes. This uses more durability than the laser.
+- Both attacks are more effective against Dragons
   
 </details>
 
-If you already have one of the above items, you're less likely to get it again. Once you've killed all 20 Ender Dragons, you can never get any more. Use them wisely!
+If you already have one of the above items, you're less likely to get it again.
 
 There are also advancements for killing each Type and each Difficulty of Dragon.
