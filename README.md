@@ -41,6 +41,14 @@ The Vanilla Ender Dragon has the following abilities at all times. When there ar
 - Periodically attacks a player with a Sonic Boom attack
 - Converts the ground to various Sculk blocks as it flies
 
+**Frost Dragon**
+- Breath Clouds give extreme Slowness + Slow Falling
+- Converts the ground to snow and ice as it flies
+- Periodically summons igloos
+  - They can appear either around the Exit Portal, around up to 3 random players, or around up to 3 random End Crystals
+  - They break on their own after 15 seconds
+  - When they break, players trapped inside, or directly outside, will be damaged.
+
 **Dragon Tyrant**
 - Breath Clouds give Wither + Weakness
 - Periodically summons Wither Skeleton Servants
@@ -70,6 +78,14 @@ The Vanilla Ender Dragon has the following abilities at all times. When there ar
 - Much faster flying speed
 - Shoots fireballs and charges at players more frequently
 - Never perches
+
+**The Last Dragon**
+- Appears always and only as the 20th Dragon
+- Breath Clouds spread more and give Levitation + extreme Weakness
+- Converts the ground to Amethyst blocks as it flies
+- Frequently force-grounds flying players
+- Frequently shoots Amethyst Shard projectiles at up to 5 random players
+- You can still summon more Dragons after this one
   
 </details>
 
@@ -147,6 +163,11 @@ So why would you want to fight such increasingly difficult Ender Dragons? Defeat
 - The laser can pierce Forcefield End Crystals, and has a wider range to damage End Crystals and Dragons
 - Right-click while Sneaking to charge up an area-of-effect spell around you, damaging nearby mobs when it finishes. This uses more durability than the laser.
 - Both attacks are more effective against Dragons
+
+**Dragon Eyes**
+- Right click to equip as a helmet
+- While wearing, hidden ores will be highlighted in the direction you're looking
+- Slowly loses durability while wearing
   
 </details>
 
