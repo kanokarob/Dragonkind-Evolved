@@ -5,8 +5,10 @@ Dragonkind Evolved builds upon the vanilla Ender Dragon fight. Rather than recre
 
 Additionally, it incentivizes and rewards respawning the Ender Dragon. While the initial Ender Dragon fight does include changes, each successive battle will feature new Dragon types and End Crystal mechanics, both of which will continue to scale in difficulty as you slay more and more Ender Dragons.
 
+[![Dragonkind Evolved Trailer](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FuOOxQkdKQs0)](https://youtu.be/uOOxQkdKQs0)
+
 ## Ender Dragons
-All Ender Dragons have more health than normal, and will have even more health depending on how many times it has been respawned. This corresponds to its difficulty level (Fledgeling, Powerful, Cruel, Immortal).
+All Ender Dragons have more health than normal, and will have even more health depending on how many times it has been respawned. This corresponds to its difficulty level (Fledgeling, Powerful, Cruel, Immortal,Ferocious).
 
 Whenever an Ender Dragon is respawned, it will gain a random Type, which changes or adds onto its behavior. This is denoted by the boss bar name as well as particles emitted by the Dragon. Some Dragon Types only appear at lower or higher difficulty levels.
 
@@ -28,6 +30,7 @@ The Vanilla Ender Dragon has the following abilities at all times. When there ar
 - Breath Clouds spread more and give Hunger + Nausea
 - Periodically summons Zombie Servants
 - Converts the ground to Mud as it flies
+- Only appears at Fledgeling and Ferocious+ difficulty
 
 **Warped Dragon**
 - Slower flying speed
@@ -35,11 +38,13 @@ The Vanilla Ender Dragon has the following abilities at all times. When there ar
 - Perches more often
 - Breath Clouds give Poison + Slowness
 - Breath Clouds don't dissipate until the fight ends
+- Only appears at Fledgeling and Ferocious+ difficulty
 
 **Sculk Dragon**
 - Breath Clouds give Darkness + Instant Damage
 - Periodically attacks a player with a Sonic Boom attack
 - Converts the ground to various Sculk blocks as it flies
+- Only appears at Fledgeling, Powerful, and Ferocious+ difficulty
 
 **Frost Dragon**
 - Breath Clouds give extreme Slowness + Slow Falling
@@ -48,22 +53,26 @@ The Vanilla Ender Dragon has the following abilities at all times. When there ar
   - They can appear either around the Exit Portal, around up to 3 random players, or around up to 3 random End Crystals
   - They break on their own after 15 seconds
   - When they break, players trapped inside, or directly outside, will be damaged.
+- Only appears at Fledgeling, Powerful, and Ferocious+ difficulty
 
 **Dragon Tyrant**
 - Breath Clouds give Wither + Weakness
 - Periodically summons Wither Skeleton Servants
 - Converts the ground to Soul Sand and Soul Fires as it flies
+- Only appears at Powerful, Cruel, and Ferocious+ difficulty
 
 **Skeletal Dragon**
 - Perches very often
 - Periodically summons Skeleton Servants, but at the cost of its health
 - Is Invulnerable while Skeleton Servants are alive
 - Slowly regenerates health even if there are no more End Crystals
+- Only appears at Powerful, Cruel, and Ferocious+ difficulty
 
 **Blazing Dragon**
 - Sets fires all along the ground beneath it
 - Shoots fireballs more frequently
 - Periodically summons Blaze Servants
+- Only appears at Cruel+ difficulty
 
 **Elder Dragon**
 - Has Glowing
@@ -72,20 +81,32 @@ The Vanilla Ender Dragon has the following abilities at all times. When there ar
 	- Summons Vex Servants
 	- Summons Evoker Fangs
 	- Launch into the air
+- Only appears at Cruel+ difficulty
 
 **Dragon Wight**
 - Silent, plays different ambient sound effects
 - Much faster flying speed
 - Shoots fireballs and charges at players more frequently
 - Never perches
+- Only appears at Immortal+ difficulty
 
 **The Last Dragon**
-- Appears always and only as the 20th Dragon
+- Only and always appears as the 20th Dragon (Immortal difficulty)
 - Breath Clouds spread more and give Levitation + extreme Weakness
 - Converts the ground to Amethyst blocks as it flies
 - Frequently force-grounds flying players
 - Frequently shoots Amethyst Shard projectiles at up to 5 random players
 - You can still summon more Dragons after this one
+
+**Beacon Dragon**
+- Has Glowing
+- Much slower flying speed when near the ground
+- Breath clouds give Glowing + Instant Damage, and cause nearby Endermen to aggro at affected players
+- Constantly projects a "beacon" particle beam
+  - Alternates between three targets: ahead of the Dragon, directly beneath it, or directly at the nearest player
+  - Deals minor but repeated damage to any players or mobs hit
+  - Cannot continue through dragon-immune blocks
+- Only appears at Ferocious+ difficulty
   
 </details>
 
@@ -111,12 +132,25 @@ Whenever an End Crystal regenerates, it has a chance to possess at least 1 abili
 
 **Witch**
 - Periodically gives a random neutral or negative effect to a player who doesn't have any effects
+- Only appears at Powerful+ difficulty
 
 **Anti-Grav**
 - Players nearby the Obsidian Pillar get Levitation
+- Only appears at Powerful+ difficulty
 
 **Cursed**
 - No particles. Destroying this crystal will damage the closest player quite a lot
+- Only one Cursed Crystal can be present at a time
+- Only appears at Immortal+ difficulty
+
+**Launcher**
+- Glows when charged. While charged, frequently shoots heat-seeking Eye of Ender projectiles at players flying within its airspace
+- Only appears at Ferocious+ difficulty
+
+**Portal**
+- Periodically teleports up to 3 random players to the top of random towers
+- Only one Portal Crystal can be present at a time
+- Only appears at Ferocious+ difficulty
   
 </details>
 
@@ -147,6 +181,7 @@ So why would you want to fight such increasingly difficult Ender Dragons? Defeat
 - Each piece gives more Armor value than Netherite. A full set provides 25 total Armor.
 - Each piece gives extra Hearts. A full set provides 10 total hearts.
 - While wearing a full set, deals a more powerful Thorns-like effect to Dragons only
+- While wearing the Dragonhide Sabatons (boots), you can hover over the void as long as there are no blocks beneath you. Useful for traversing the Outer End without Elytra.
 
 **Dragonskull Shield**
 - While blocking, causes Dragon breath clouds to instantly dissipate
@@ -168,6 +203,15 @@ So why would you want to fight such increasingly difficult Ender Dragons? Defeat
 - Right click to equip as a helmet
 - While wearing, hidden ores will be highlighted in the direction you're looking
 - Slowly loses durability while wearing
+
+**Dragonheart Anchor**
+- Placeable block
+- Once placed, sneak while near it to set your Recovery point
+- If you are ever below two hearts, or are in the void, you are teleported to your Recovery point and healed slightly. Works no matter what dimension you're in
+- Cannot save you from lethal damage
+- Each Dragonheart Anchor can only be used 3 times before breaking
+- Does not drop if broken by hand, even with Silk Touch
+- Placing in a dimension other than the End causes it to explode
   
 </details>
 
