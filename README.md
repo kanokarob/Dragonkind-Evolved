@@ -141,7 +141,7 @@ Whenever an End Crystal regenerates, it has a chance to possess at least 1 abili
 **Cursed**
 - No particles. Destroying this crystal will damage the closest player quite a lot
 - Only one Cursed Crystal can be present at a time
-- Only appears at Immortal+ difficulty
+- Only appears at Cruel+ difficulty
 
 **Launcher**
 - Glows when charged. While charged, frequently shoots heat-seeking Eye of Ender projectiles at players flying within its airspace
