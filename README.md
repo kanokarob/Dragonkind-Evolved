@@ -18,7 +18,7 @@ Whenever an Ender Dragon is respawned, it will gain a random Type, which changes
 The Vanilla Ender Dragon has the following abilities at all times. When there are no more End Crystals left, all Dragon Types will begin to utilize these abilities in addition to their type-specific powers.
 
 - **Summon End Rod Spikes.** These work similarly to Evoker Fangs, and are summoned when the Dragon is perching or preparing to perch, or as a last resort.
-- **Ground all players.** This gives all players Levitation 128 for 20 seconds, effectively forcing them to (safely) land if flying with Elytra, and preventing them from taking off right away. If there aren't any flying players, it will try something else instead.
+- **Ground all players.** This makes all players experience high gravity for 20 seconds, forcing them to (safely) land if flying with Elytra, and preventing them from taking off right away. If there aren't any flying players, it will try something else instead.
 - **Summon Shulker Bullets.** This summons a ring of 12 Shulker Bullets around the Dragon, which will begin to target random players after a few moments. If there are already Shulker Bullets in the area, it will summon End Rod Spikes, instead.
 
 </details>
