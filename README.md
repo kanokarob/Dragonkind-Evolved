@@ -5,7 +5,7 @@ Dragonkind Evolved builds upon the vanilla Ender Dragon fight. Rather than recre
 
 Additionally, it incentivizes and rewards respawning the Ender Dragon. While the initial Ender Dragon fight does include changes, each successive battle will feature new Dragon types and End Crystal mechanics, both of which will continue to scale in difficulty as you slay more and more Ender Dragons.
 
-[![Dragonkind Evolved Trailer](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FuOOxQkdKQs0)](https://youtu.be/uOOxQkdKQs0)
+[![Dragonkind Evolved Trailer](https://img.youtube.com/vi/uOOxQkdKQs0/0.jpg)](https://www.youtube.com/watch?v=uOOxQkdKQs0)
 
 ## Ender Dragons
 All Ender Dragons have more health than normal, and will have even more health depending on how many times it has been respawned. This corresponds to its difficulty level (Fledgeling, Powerful, Cruel, Immortal,Ferocious).
@@ -107,6 +107,22 @@ The Vanilla Ender Dragon has the following abilities at all times. When there ar
   - Deals minor but repeated damage to any players or mobs hit
   - Cannot continue through dragon-immune blocks
 - Only appears at Ferocious+ difficulty
+
+**Desert Dragon**
+- Converts the ground to sand with frequent cacti as it flies
+- Shoots regular, unblockable Fireballs very frequently
+- Periodically summons Hoglin servants
+- Breath Clouds give Hunger, significant Slowness, and a long duration of Mining Fatigue
+- Only appears at Ferocious+ difficulty
+
+**Thunder Dragon**
+- Creates permanent electrical hazards encircling the arena
+- Breath attack summons lightning instead of Area Effect Clouds
+- Breath Clouds created by fireballs give Strong Instant Damage + significant Speed
+- Slightly faster flying speed
+- Perches less often
+- Always drops a Trident enchanted with Channeling
+- Only appears at Ferocious+ difficulty
   
 </details>
 
@@ -156,53 +172,51 @@ Whenever an End Crystal regenerates, it has a chance to possess at least 1 abili
 
 
 ## Rewards
-So why would you want to fight such increasingly difficult Ender Dragons? Defeating an Ender Dragon now drops loot near the exit portal, which varies based on the Dragon Type. Additionally, this will always produce 1 custom Dragon-themed item. These items are powerful in their own right, and are more effective when used against Dragons. However, they all have a Curse of Deterioration, which means they all have durability and cannot have the Mending Enchantment applied to them.
+So why would you want to fight such increasingly difficult Ender Dragons? Defeating an Ender Dragon now drops loot near the exit portal, which varies based on the Dragon Type. Additionally, this will always produce 1 custom Dragon-themed item. These items are powerful in their own right, and all have custom enchantments that make them more effective when used against Dragons. However, they all have a Curse of Deterioration.
 
 <details>
   <summary>Custom Items</summary>
   
 **Dragonslayer Sword**
 - Deals 15 damage
-- When it hits a mob, has a wider and stronger form of Sweeping Edge
-- More effective against Dragons
+- Has a greatly increased attack speed
+- Enchanted with Wingpsan V
+- Enchanted with Dragonbane IV
 
 **Dragon-Sinew Crossbow**
-- Arrows deal 15 damage
-- Arrows hit End Crystals and Ender Dragons from a greater distance (8 blocks)
-- More effective against Dragons
-- Can't pierce Forcefield End Crystals
+- Enchanted with Exhalation
+- Enchanted with Dragonbane IV
 
 **Dragontooth Pickaxe**
 - More effective when mining Obsidian
-- When a block is mined, the next 3 blocks in a row also get mined. This uses durability.
-- Respects Unbreaking, if applied
+- Enchanted with Pillaring III
 
 **Dragonhide Armor (4 separate pieces)**
 - Each piece gives more Armor value than Netherite. A full set provides 25 total Armor.
-- Each piece gives extra Hearts. A full set provides 10 total hearts.
-- While wearing a full set, deals a more powerful Thorns-like effect to Dragons only
-- While wearing the Dragonhide Sabatons (boots), you can hover over the void as long as there are no blocks beneath you. Useful for traversing the Outer End without Elytra.
+- Each piece is enchanted with varying levels of Dragonhearted
+- Each piece is enchanted with varying levels of Dragonyield
+- The Dragonhide Sabatons (boots) are enchanted with Voidwalk
 
 **Dragonskull Shield**
-- While blocking, causes Dragon breath clouds to instantly dissipate
-- When this blocks a mob attack, knocks the mob back and deals them damage
-- The above damage is more effective against Dragons
+- Enchanted with Clear Skies
+- Enchanted with Kickback
 
 **Dragonscale Wings**
 - Provides some Armor
-- Gives 3 extra Hearts
-- While flying, looking upwards gives a strong levitation effect
+- Enchanted with Dragonhearted III
+- Enchanted with Altitude
 
 **Draconic Scepter**
+- Enchanted with Exhalation V
+- Enchanted with Dragonbane IV
 - Right-click to launch a laser where you are looking, reaching up to 48 blocks away. It damages mobs near where it hits.
 - The laser can pierce Forcefield End Crystals, and has a wider range to damage End Crystals and Dragons
 - Right-click while Sneaking to charge up an area-of-effect spell around you, damaging nearby mobs when it finishes. This uses more durability than the laser.
-- Both attacks are more effective against Dragons
 
 **Dragon Eyes**
 - Right click to equip as a helmet
-- While wearing, hidden ores will be highlighted in the direction you're looking
-- Slowly loses durability while wearing
+- Enchanted with Dragonsight
+- Enchanted with Dragon Lungs III
 
 **Dragonheart Anchor**
 - Placeable block
@@ -217,4 +231,85 @@ So why would you want to fight such increasingly difficult Ender Dragons? Defeat
 
 If you already have one of the above items, you're less likely to get it again.
 
-There are also advancements for killing each Type and each Difficulty of Dragon.
+<details>
+  <summary>Enchantments</summary>
+ 
+These custom enchantments cannot be obtained from the Enchanting Table, or from loot other than the Ender Dragon. As of v1.5, if you already possess all of the custom items above (except for the Dragonheart Anchor), then the Dragon will have a chance to drop an Enchanted Book with one of these enchantments, instead of another custom item. Not all enchantments can appear on books this way.
+
+**Curse of Deterioration**
+- Curse for all custom items
+- Cannot be removed in a Grindstone
+- Prevents the item from having Mending applied to it
+
+**Wingspan**
+- Enchantment for Swords
+- Hitting a mob creates a more powerful Sweeping Edge-like effect
+
+**Dragonbane**
+- Enchantment for weapons
+- Enchanted weapon deals additional damage against Dragons
+
+**Exhalation**
+- Enchantment for Crossbows
+- Shot arrows deal 15 damage, and are more effective against Dragons
+- Shot arrows hit End Crystals and Ender Dragons from a greater distance (8 blocks), but can't pierce Forcefield End Crystals
+
+**Pillaring**
+- Enchantment for Pickaxes
+- When a block is mined, the next 3 blocks in a row also get mined. This uses durability.
+- Respects Unbreaking, if applied
+
+**Dragonhearted**
+- Enchantment for Armor and Elytra
+- Grants additional max hearts equal to the level
+- Stacks with each armor piece
+
+**Dragonyield**
+- Enchantment for Armor
+- Thorns-like enchantment that only affects Dragons
+- Stacks with each armor piece
+
+**Voidwalk**
+- Enchantment for Boots
+- You can hover over the void as long as there are no blocks beneath you. Useful for traversing the Outer End without Elytra.
+
+**Clear Skies**
+- Enchantment for Shields
+- While blocking, causes Dragon breath clouds to instantly dissipate
+
+**Kickback**
+- Enchantment for Shields
+- When a mob attack is blocked, knocks the mob back and deals them damage
+- The above damage is more effective against Dragons
+
+**Altitude**
+- Enchantment for Elytra
+- While flying, looking upwards gives a strong levitation effect
+
+**Dragonsight**
+- Enchantment for Helmets and Dragon Eyes
+- While wearing, hidden ores will be highlighted in the direction you're looking
+- Enchanted item slowly loses durability while wearing
+
+**Dragon Lungs**
+- Enchantment for Helmets
+- Applies the same effects as Aqua Affinity and Respiration
+
+</details>
+
+There are also advancements for killing each Type and each Difficulty of Dragon, and one advancement for collecting each custom reward item.
+
+## Ominous Dragon Fights
+
+As of v1.5, If a Dragon is respawned, if any of the players in the arena have the Bad Omen effect, they will lose Bad Omen, and an Ominous Dragon Fight will start. During an Ominous Dragon Fight. This will have effects on the Dragon and End Crystals to make the fight far more challenging, but promises increased rewards.
+
+<details>
+  <summary>Ominous Dragon Fight Details</summary>
+ 
+- The difficulty of the fight is increased by 1 tier. This affects the types of Dragon and Crystals that can appear, the Health of the Dragon, and how many times End Crystals can regenerate.
+- Regardless of the difficulty tier, the dragon will always be called an "Ominous X Dragon"
+- Most Dragons and End Crystals that use periodic abilities will use those abilities more frequently.
+- All Dragon Types will use their post-End Crystal abilities throughout the fight, even if there are still End Crystals. These are also used more frequently.
+- When defeated, the Dragon will drop the reward amount relative to the increased difficulty tier. Additionally, this loot is doubled, including the unique Dragon Item. (This can result in getting two of the same item.)
+ 
+</details>
