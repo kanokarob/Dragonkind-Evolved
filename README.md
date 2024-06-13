@@ -301,7 +301,7 @@ There are also advancements for killing each Type and each Difficulty of Dragon,
 
 ## Ominous Dragon Fights
 
-As of v1.5, If a Dragon is respawned, if any of the players in the arena have the Bad Omen effect, they will lose Bad Omen, and an Ominous Dragon Fight will start. During an Ominous Dragon Fight. This will have effects on the Dragon and End Crystals to make the fight far more challenging, but promises increased rewards.
+As of v1.5, when a Dragon is respawned while any of the players in the arena have the Bad Omen effect, they will lose Bad Omen, and an Ominous Dragon Fight will start. This will have effects on the Dragon and End Crystals to make the fight far more challenging, but promises increased rewards.
 
 <details>
   <summary>Ominous Dragon Fight Details</summary>
