@@ -5,8 +5,6 @@ Dragonkind Evolved builds upon the vanilla Ender Dragon fight. Rather than recre
 
 Additionally, it incentivizes and rewards respawning the Ender Dragon. While the initial Ender Dragon fight does include changes, each successive battle will feature new Dragon types and End Crystal mechanics, both of which will continue to scale in difficulty as you slay more and more Ender Dragons.
 
-[![Dragonkind Evolved Trailer](https://img.youtube.com/vi/uOOxQkdKQs0/0.jpg)](https://www.youtube.com/watch?v=uOOxQkdKQs0)
-
 ## Ender Dragons
 All Ender Dragons have more health than normal, and will have even more health depending on how many times it has been respawned. This corresponds to its difficulty level (Fledgeling, Powerful, Cruel, Immortal,Ferocious).
 
