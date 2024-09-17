@@ -5,6 +5,8 @@ Dragonkind Evolved builds upon the vanilla Ender Dragon fight. Rather than recre
 
 Additionally, it incentivizes and rewards respawning the Ender Dragon. While the initial Ender Dragon fight does include changes, each successive battle will feature new Dragon types and End Crystal mechanics, both of which will continue to scale in difficulty as you slay more and more Ender Dragons.
 
+[![Dragonkind Evolved Trailer](https://img.youtube.com/vi/uOOxQkdKQs0/0.jpg)](https://www.youtube.com/watch?v=uOOxQkdKQs0)
+
 ## Ender Dragons
 All Ender Dragons have more health than normal, and will have even more health depending on how many times it has been respawned. This corresponds to its difficulty level (Fledgeling, Powerful, Cruel, Immortal,Ferocious).
 
@@ -121,6 +123,16 @@ The Vanilla Ender Dragon has the following abilities at all times. When there ar
 - Perches less often
 - Always drops a Trident enchanted with Channeling
 - Only appears at Ferocious+ difficulty
+
+**10,000 Dragon**
+- Only and always appears as the 30th Dragon (Ferocious difficulty)
+- Breath Clouds spread more and give long Poison + strong Instant Damage
+- Converts the ground to gold-colored blocks as it flies
+- Frequently chooses one or more of the following abilities:
+  - Force-grounds flying players
+  - Shoots sustained golden lasers at up to 5 random players
+  - Performs a slam attack into the ground, producing a damaging shockwave
+- You can still summon more Dragons after this one
   
 </details>
 
@@ -165,6 +177,11 @@ Whenever an End Crystal regenerates, it has a chance to possess at least 1 abili
 - Periodically teleports up to 3 random players to the top of random towers
 - Only one Portal Crystal can be present at a time
 - Only appears at Ferocious+ difficulty
+
+**10,000**
+- Only appears during the 10,000 Dragon fight
+- Only one 10,000 Crystal can be present at a time
+- Makes all other End Crystals invulnerable until this one is destroyed
   
 </details>
 
