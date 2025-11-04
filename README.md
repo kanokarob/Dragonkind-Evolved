@@ -8,18 +8,26 @@ Additionally, it incentivizes and rewards respawning the Ender Dragon. While the
 [![Dragonkind Evolved Trailer](https://img.youtube.com/vi/uOOxQkdKQs0/0.jpg)](https://www.youtube.com/watch?v=uOOxQkdKQs0)
 
 ## Ender Dragons
-All Ender Dragons have more health than normal, and will have even more health depending on how many times it has been respawned. This corresponds to its difficulty level (Fledgeling, Powerful, Cruel, Immortal,Ferocious).
+All Ender Dragons have more health than normal, and will have even more health depending on how many times it has been respawned. This corresponds to its difficulty level (Fledgeling, Powerful, Cruel, Immortal, Ferocious, Primordial).
 
 Whenever an Ender Dragon is respawned, it will gain a random Type, which changes or adds onto its behavior. This is denoted by the boss bar name as well as particles emitted by the Dragon. Some Dragon Types only appear at lower or higher difficulty levels.
 
 <details>
   <summary>Shared Behavior</summary>
  
-The Vanilla Ender Dragon has the following abilities at all times. When there are no more End Crystals left, all Dragon Types will begin to utilize these abilities in addition to their type-specific powers.
+All Ender Dragons share a variety of attacks and behaviors that they use periodically, which are split into "Standard" and "Desperate". Standard attacks will be used at all times by all Dragon types. Desperate behavior/attacks will only be used if either:
+- The Dragon is the vanilla Ender Dragon type
+- The Dragon is Ominous
+- There are no remaining End Crystals
 
-- **Summon End Rod Spikes.** These work similarly to Evoker Fangs, and are summoned when the Dragon is perching or preparing to perch, or as a last resort.
-- **Ground all players.** This makes all players experience high gravity for 20 seconds, forcing them to (safely) land if flying with Elytra, and preventing them from taking off right away. If there aren't any flying players, it will try something else instead.
-- **Summon Shulker Bullets.** This summons a ring of 12 Shulker Bullets around the Dragon, which will begin to target random players after a few moments. If there are already Shulker Bullets in the area, it will summon End Rod Spikes, instead.
+### Standard
+- **Slam.** The Dragon slams its whole body down on the ground, creating a damaging explosion in the surrounding area, before quickly rising back up to altitude
+- **Summon End Rod Spikes.** These work similarly to Evoker Fangs, and are summoned when the Dragon is perching or preparing to perch, or as a last resort
+- **Summon Shulker Bullets.** This summons a ring of 12 Shulker Bullets around the Dragon, which will begin to target random players after a few moments. If there are already Shulker Bullets in the area, it will summon End Rod Spikes, instead
+
+### Desperate
+- **Ground all players.** Whenever the Dragon selects any attack while Desperate, if there are any flying players, it will give all players high gravity for 20 seconds, forcing them to (safely) land if flying with Elytra, and preventing them from taking off right away
+- **Meteor Storm.** An additional attack the Dragon can select while Desperate. Summons a volley of Dragon Fireballs in the sky over the course of several seconds that cover the arena in Dragon Breath Clouds. If the Dragon is a Warped Dragon, this also removes any existing Dragon Breath Clouds
 
 </details>
 
@@ -31,6 +39,13 @@ The Vanilla Ender Dragon has the following abilities at all times. When there ar
 - Periodically summons Zombie Servants
 - Converts the ground to Mud as it flies
 - Only appears at Fledgeling and Ferocious+ difficulty
+  
+**Mossy Dragon**
+- Breath Clouds give Poison, Weakness, and Oozing
+- Periodically summons Slime Servants
+- Periodically bounces all non-flying players high into the air
+- Converts the ground to Moss as it flies
+- Only appears at Fledgeling and Ferocious+ difficulty
 
 **Warped Dragon**
 - Slower flying speed
@@ -38,6 +53,7 @@ The Vanilla Ender Dragon has the following abilities at all times. When there ar
 - Perches more often
 - Breath Clouds give Poison + Slowness
 - Breath Clouds don't dissipate until the fight ends
+- Converts the ground to Warped Wart Blocks and Warped Hyphae as it flies
 - Only appears at Fledgeling and Ferocious+ difficulty
 
 **Sculk Dragon**
@@ -91,7 +107,7 @@ The Vanilla Ender Dragon has the following abilities at all times. When there ar
 - Only appears at Immortal+ difficulty
 
 **The Last Dragon**
-- Only and always appears as the 20th Dragon (Immortal difficulty)
+- Only and always appears as the 20th Dragon globally in a world (Immortal difficulty)
 - Breath Clouds spread more and give Levitation + extreme Weakness
 - Converts the ground to Amethyst blocks as it flies
 - Frequently force-grounds flying players
@@ -125,14 +141,21 @@ The Vanilla Ender Dragon has the following abilities at all times. When there ar
 - Only appears at Ferocious+ difficulty
 
 **10,000 Dragon**
-- Only and always appears as the 30th Dragon (Ferocious difficulty)
+- Only and always appears as the 30th Dragon globally in a world (Ferocious difficulty)
 - Breath Clouds spread more and give long Poison + strong Instant Damage
 - Converts the ground to gold-colored blocks as it flies
 - Frequently chooses one or more of the following abilities:
   - Force-grounds flying players
   - Shoots sustained golden lasers at up to 5 random players
-  - Performs a slam attack into the ground, producing a damaging shockwave
+  - Shoots a golden projectile at the exit portal, which then erupts into a damaging shockwave over the entire arena
 - You can still summon more Dragons after this one
+
+**Artillery Dragon**
+- Breath Clouds deal damage and give Wither + Darkness
+- Periodically chooses one or more of the following abilities:
+  - Places 5 Landmines around the arena. They glow for a moment before burying themselves, leaving only the pressure button visible
+  - Shoots 5 Missiles into the air that arc down to the ground. If there is a flying player, shoots one additional homing missile at them
+- Only appears at Primordial+ difficulty
   
 </details>
 
@@ -149,15 +172,23 @@ Whenever an End Crystal regenerates, it has a chance to possess at least 1 abili
 
 **Forcefield**
 - Immune to projectiles
+- Has a magenta bubble around it
 
 **Fiery**
 - Burns players who get close
+- Orbited by glowing Blaze Rods
 
 **Laser**
 - Periodically shoots a laser at the closest player. Can be dodged by jumping
 
+**Enderbee**
+- Periodically causes one random player to drop their mainhand and offhand items
+- Orbited by two glowing End-themed Bees
+- Only one Enderbee Crystal can be present at a time
+
 **Witch**
 - Periodically gives a random neutral or negative effect to a player who doesn't have any effects
+- Has a glowing Witch Hat floating above it
 - Only appears at Powerful+ difficulty
 
 **Anti-Grav**
@@ -170,18 +201,21 @@ Whenever an End Crystal regenerates, it has a chance to possess at least 1 abili
 - Only appears at Cruel+ difficulty
 
 **Launcher**
-- Glows when charged. While charged, frequently shoots heat-seeking Eye of Ender projectiles at players flying within its airspace
+- Has an Eye of Ender-themed visual above it that looks at nearby players and glows when charged
+- While charged, frequently shoots heat-seeking Eye of Ender projectiles at players flying within its airspace
 - Only appears at Ferocious+ difficulty
 
 **Portal**
 - Periodically teleports up to 3 random players to the top of random towers
+- Has a glowing, circular Nether Portal floating behind it
 - Only one Portal Crystal can be present at a time
 - Only appears at Ferocious+ difficulty
 
 **10,000**
+- Makes all other End Crystals invulnerable until this one is destroyed
+- Has a glowing, ornate golden crown surrounding it
 - Only appears during the 10,000 Dragon fight
 - Only one 10,000 Crystal can be present at a time
-- Makes all other End Crystals invulnerable until this one is destroyed
   
 </details>
 
@@ -323,8 +357,8 @@ As of v1.5, when a Dragon is respawned while any of the players in the arena hav
  
 - The difficulty of the fight is increased by 1 tier. This affects the types of Dragon and Crystals that can appear, the Health of the Dragon, and how many times End Crystals can regenerate.
 - Regardless of the difficulty tier, the dragon will always be called an "Ominous X Dragon"
-- Most Dragons and End Crystals that use periodic abilities will use those abilities more frequently.
-- All Dragon Types will use their post-End Crystal abilities throughout the fight, even if there are still End Crystals. These are also used more frequently.
-- When defeated, the Dragon will drop the reward amount relative to the increased difficulty tier. Additionally, this loot is doubled, including the unique Dragon Item. (This can result in getting two of the same item.)
+- Most Dragons and End Crystals that use periodic abilities will use those abilities more frequently
+- The Dragon uses the shared Desperate behavior even if there are remaining End Crystals, and uses them more frequently
+- When defeated, the Dragon will drop the reward amount relative to the increased difficulty tier. Additionally, this loot is doubled, including the unique Dragon Item (This can result in getting two of the same item)
  
 </details>
